@@ -1,7 +1,11 @@
 ---
 layout: post
-title: "Brian Hicks, Software Developer, Launches Site"
+title: "Launches Site"
 date: 2018-04-14
+author:
+  name: Brian Hicks
+  email: brian.david.hicks@gmail.com
+tags: jekyll blog
 ---
 # Here is a Title line
 ## And a smaller one

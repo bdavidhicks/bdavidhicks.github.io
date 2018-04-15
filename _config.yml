@@ -2,3 +2,8 @@ title: Brian Hicks, Software Developer
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-hacker
+author:
+  name: Brian Hicks
+  email: brian.david.hicks@gmail.com
+repository: bdavidhicks/bdavidhicks.github.io
+github: [metadata]

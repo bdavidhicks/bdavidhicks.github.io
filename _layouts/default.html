@@ -1,31 +1,23 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-  <link rel="stylesheet" type="text/css" href="{{ '/assets/css/atom-one-dark.css' | relative_url }}">
-  <script src="{{ '/assets/js/highlight.pack.js' | relative_url}}"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-</head>
-<body>
-  <nav>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/about">About</a></li>
-      <li><a href="/cv">CV</a></li>
-      <li><a href="/blog">Blog</a></li>
-    </ul>
-  </nav>
-  <div class="container">
-
-    {{ content }}
-
-  </div>
-  <footer>
-    <ul>
-      <li><a href="mailto:brian.david.hicks@gmail.com">email</a></li>
-      <li><a href="https://github.com/bdavidhicks">github.com/bdavidhicks</a></li>
-    </ul>
-  </footer>
-</body>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/atom-one-dark.css' | relative_url }}">
+    <script src="{{ '/assets/js/highlight.pack.js' | relative_url}}"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    {% include header.html %}
+    <div class="container">
+      <section id="main_content">
+        {{ content }}
+      </section>
+    </div>
+    {% include footer.html %}
+  </body>
 </html>
+<!DOCTYPE html>
