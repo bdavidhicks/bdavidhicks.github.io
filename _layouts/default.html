@@ -2,9 +2,9 @@
 <html>
 <head>
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" type="text/css" href="/css/main.css">
-  <link rel="stylesheet" href="/css/styles/atom-one-dark.css">
-  <script src="/js/highlight.pack.js"></script>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" type="text/css" href="{{ '/assets/css/atom-one-dark.css' | relative_url }}">
+  <script src="{{ '/assets/js/highlight.pack.js' | relative_url}}"></script>
   <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>

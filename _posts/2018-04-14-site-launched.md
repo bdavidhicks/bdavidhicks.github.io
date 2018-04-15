@@ -21,14 +21,18 @@ or
     *   this
 
 Can show code too! Javascript
-<pre><code class="js">
-console.log('Good job');
-
+<pre><code class="js">console.log('Good job');
+// Good Job
 </code></pre>
 
 Python
-<pre><code class="python">
-for i in range(10):
+<pre><code class="python">for i in range(2):
   print('Good job');
+# Good Job
+# Good Job
+</code></pre>
 
+SQL
+<pre><code class="sql">SELECT * FROM users WHERE clue > 0;
+-- 0 rows returned
 </code></pre>
